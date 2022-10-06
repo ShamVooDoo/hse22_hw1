@@ -46,3 +46,11 @@ platanus scaffold -o Poil -c Poil_contig.fa -IP1 R1PairedEnd.fastq.trimmed R2Pai
 platanus gap_close -o Poil -c Poil_scaffold.fa -IP1 R1PairedEnd.fastq.trimmed R2PairedEnd.fastq.trimmed -OP2 R1MatePairs.fastq.int_trimmed R2MatePairs.fastq.int_trimmed 2> gapclose.log
 ```
 ## Отчеты
+1) Оригинальный MultiQC
+![image](https://user-images.githubusercontent.com/1662453/194418385-4f9e3960-1980-4fed-ae34-c1f85f5facce.png)
+![image](https://user-images.githubusercontent.com/1662453/194418602-1dc6a3c7-bb5d-423f-b213-eb028d7db86a.png)
+2) Подрезанный MultiQC
+![image](https://user-images.githubusercontent.com/1662453/194418964-7b592ba0-4444-436b-bf3d-1fc5d3e3c035.png)
+![image](https://user-images.githubusercontent.com/1662453/194419006-1dd3e28a-11a9-4f01-bace-fb808bc43e4e.png)
+
+
